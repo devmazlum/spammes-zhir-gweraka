@@ -22,7 +22,7 @@ const wolf19 = new Discord.Client();
 const wolf20 = new Discord.Client();
 
 
-wolf.login("");
+wolf.login("تۆکینی ژیرە گوێرەکە");
 wolf2.login("");
 wolf3.login("");
 wolf4.login("");
@@ -45,7 +45,7 @@ wolf20.login("");
 
 //// By : Wolf
 wolf.on('message', message => {
-if (message.content === '&spam') {
+if (message.content === '"spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
